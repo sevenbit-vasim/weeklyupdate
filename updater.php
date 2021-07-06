@@ -1,15 +1,15 @@
 <?php
 /*
 Plugin Name: Weekly Plugin Update
-Plugin URI: https://eatancepress.evdpl.com/en/
-Description: This is Eatance Plugin Update.
-Author: Eatance Team
+Plugin URI: https://weekly.com/
+Description: This is weekly Plugin Update.
+Author: weekly Team
 Version: 1.0.0
-Author URI: https://eatancepress.evdpl.com/en/
+Author URI: https://weekly.com
 */
 
 
-//add_filter( 'auto_update_plugin', 'eatance_auto_update_plugins', 99, 2 );
+
 
 add_filter( 'auto_update_plugin', '__return_true' )
 
